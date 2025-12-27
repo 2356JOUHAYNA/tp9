@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background: linear-gradient(135deg, #f4f7fb, #e8eef7);
+  color: #222;
+}
+
+/* Amélioration de l’affichage général */
+* {
+  box-sizing: border-box;
+}
+
+/* Style léger des titres */
+h1, h2, h3 {
+  color: #1f3c88;
+  letter-spacing: 0.5px;
+}
+
+/* Style pour le texte code */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  background-color: #f1f3f6;
+  padding: 4px 6px;
+  border-radius: 6px;
+}
